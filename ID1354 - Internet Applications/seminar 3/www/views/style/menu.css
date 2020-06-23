@@ -1,0 +1,97 @@
+/*Designs the navbar*/
+.navbar {
+    overflow: hidden;
+    background-color: firebrick;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Designs the anchors contained in the navbar*/
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Defines UI behavior of division containing: dropdown button and its children anchors*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/*Defines design  of dropdown button and its children anchors*/
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/*Defines UI design to show system status while mouse is hovering over navbar buttons*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+/*Defines design of dropdown button's children anchors*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/*Defines design of dropdown button's children anchors*/
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*Defines UI design to show system status while mouse is hovering over dropdown buttons children anchors*/
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/*Defines dropdown design behavior when mouse is hovered above dropdown button explicitly*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Defines design of login button*/
+#loginButton{
+	float:right;
+}
+/*Defines design of logout button*/
+#logoutButton {
+    float: right;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+#logoutButton:hover {
+    background-color: red;
+}
+
+
+/*Defines design of strong elements*/
+strong {
+font-weight: bolder;
+text-decoration: underline;
+}

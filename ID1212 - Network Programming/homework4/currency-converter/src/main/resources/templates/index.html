@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Currency converter</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" th:href="@{/css/styles.css}"> 
+</head>
+<body>
+<div id="content">
+	<form method="get" action="/convertCurrency">
+		<input type="number" step="0.001" name="amount" placeholder="amount"
+			required />
+		<p> Convert from: </p><br>
+			<input type="radio" name="fromCurrency" value="SEK"> SEK <br>
+			<input type="radio" name="fromCurrency" value="USD"> USD <br>
+			<input type="radio" name="fromCurrency" value="JPY"> JYP <br>
+			<input type="radio" name="fromCurrency" value="AED"> AED <br>
+		<p>Convert to: </p><br>
+			<input type="radio" name="toCurrency" value="SEK"> SEK <br>
+			<input type="radio" name="toCurrency" value="USD"> USD <br>
+			<input type="radio" name="toCurrency" value="JPY"> JYP <br>
+			<input type="radio" name="toCurrency" value="AED"> AED <br>
+		<input type="submit" value="convert!">
+	</form>
+	<div id="resultField">
+		<p id="conversionResult">Conversion result: </p>
+	</div>
+</div>
+</body>
+</html>

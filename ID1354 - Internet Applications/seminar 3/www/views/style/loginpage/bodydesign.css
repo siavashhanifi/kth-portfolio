@@ -1,0 +1,70 @@
+/*Defines design of body*/
+body {
+	background-color: lightyellow;
+}
+
+/*Defines design of innerbody*/
+#innerbody {
+	margin: 3%;
+}
+
+/*Defines design of innerframe*/
+#innerframe {
+	background-color: #DEB887;
+	border: solid;
+	border-color: black;	
+}
+/*Defines size of home logo*/
+#logo {
+	width: 30%;
+	height: 30%;
+}
+
+/*Defines UI behavior when hovering above logo with mouse*/
+#logo:hover {
+	width: 29%;
+	height: 29%;
+}
+
+/*Defines design of content section*/
+#content{
+	font-family: Arial, Helvetica, sans-serif;
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#loginForm{
+	margin: 10em;
+	padding: 5em;
+	background-color: lightyellow;
+	border: firebrick solid;
+}
+
+#loginForm input{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*Defines design of largest headers*/
+h1 {
+	text-align:center;
+	font-size: 4em;
+	font-weight:bold;
+	margin-bottom:4em;
+	
+}
+
+/*Defines design of second largest headers*/
+h2 {
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	font-weight:bold;
+}
+
+/*Defines design of strong text*/
+strong {
+	font-weight: bold;
+}

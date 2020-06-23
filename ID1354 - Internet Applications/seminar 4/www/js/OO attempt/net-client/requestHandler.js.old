@@ -1,0 +1,12 @@
+class RequestHandler{
+	constructor(){
+		var resp = "";
+	}
+	post(url,args){
+		
+		$.post(url, args, function( response ) {
+			this.resp = response;
+		});
+		return this.resp;
+	}
+}

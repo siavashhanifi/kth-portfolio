@@ -1,0 +1,32 @@
+//$.getScript("js/net-client/RequestHandler.js");
+
+class LoginHandler{
+	constructor(){
+		var loginSuccessful = false;
+		var username = "";
+	}
+	
+	
+		
+	login(myform){
+		var postUrl = $(myform).attr("action"); //get form action url
+		var formData = $(myform).serialize(); //Encode form elements for submission
+		this.username = $("input[text=username]").val();
+		var requestHandler = new RequestHandler();
+		var httpResponse = requestHandler.post(postUrl,formData);
+		if(httpResponse == "true")
+			this.loginSuccessful = true;
+		else
+			this.loginSuccessful = false;
+	}
+	
+	loggedIn(){
+		alert(this.username);
+		return this.loginSuccessful;
+	}
+	
+	getUsername(){
+		return this.username;
+	}
+	
+}

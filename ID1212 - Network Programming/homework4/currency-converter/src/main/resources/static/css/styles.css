@@ -1,0 +1,19 @@
+#content {
+	align-content: center;
+	background-color: white;
+}
+
+#convertFrom {
+	border-color: black;
+	border-width: 3px;
+}
+
+#convertTo {
+	border-color: black;
+	border-width: 3px;
+}
+
+#resultField {
+	background-color: lightblue;
+	border-color: black;
+}

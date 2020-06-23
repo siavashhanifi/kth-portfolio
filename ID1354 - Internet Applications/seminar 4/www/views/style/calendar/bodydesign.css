@@ -1,0 +1,162 @@
+body {
+	background-color: lightyellow;
+}
+
+#innerbody {
+	margin: 3%;
+}
+
+#innerframe {
+	background-color: #DEB887;
+	border: solid;
+	border-color: black;	
+}
+
+#logo {
+	width: 30%;
+	height: 30%;
+}
+
+#logo:hover {
+	width: 29%;
+	height: 29%;
+}
+
+#content {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      'day1 day2 day3 day4 day5 day6 day7'
+      'day8 day9 day10 day11 day12 day13 day14'
+      'day15 day16 day17 day18 day19 day20 day21'
+	  'day22 day23 day24 day25 day26 day27 day28';
+    grid-gap: 1em;
+	margin:5em;;
+}
+
+.dayblock {
+	width:5em;
+	height: 5em;
+	background-color: lightyellow;
+	border: solid;
+	border-color: firebrick;
+}
+
+.dayblock p{
+	font-size:2em;
+}
+
+.dayblock a{
+	position:absolute;
+	
+}
+
+.dayblock a>img{
+	height:3em;
+	width: 3em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em
+}
+
+stronger {
+	font-weight: bold;
+}
+
+#day1{
+grid-area: day1;
+}
+#day2{
+grid-area: day2;
+}
+#day3{
+grid-area: day3;
+}
+#day4{
+grid-area: day4;
+}
+#day5{
+grid-area: day5;
+}
+#day6{
+grid-area: day6;
+}
+#day7{
+grid-area: day7;
+}
+#day8{
+grid-area: day8;
+}
+#day9{
+grid-area: day9;
+}
+#day10{
+grid-area: day10;
+}
+#day11{
+grid-area: day11;
+}
+#day12{
+grid-area: day12;
+}
+#day13{
+grid-area: day13;
+}
+#day14{
+grid-area: day14;
+}
+#day15{
+grid-area: day15;
+}
+#day16{
+grid-area: day16;
+}
+#day17{
+grid-area: day17;
+}
+#day18{
+grid-area: day18;
+}
+#day19{
+grid-area: day19;
+}
+#day20{
+grid-area: day20;
+}
+#day21{
+grid-area: day21;
+}
+#day22{
+grid-area: day22;
+}
+#day23{
+grid-area: day23;
+}
+#day24{
+grid-area: day24;
+}
+#day25{
+grid-area: day25;
+}
+#day26{
+grid-area: day26;
+}
+#day27{
+grid-area: day27;
+}
+#day28{
+grid-area: day28;
+}
+#day29{
+grid-area: day29;
+}
+#day30{
+grid-area: day30;
+}
